@@ -1,0 +1,232 @@
+ion-header
+{  padding-left:10px;
+    ion-icon
+    {
+    color:rgb(74, 11, 156);
+    }
+    ion-button
+    {
+        border-radius:50%;
+        background-color:rgb(242, 234, 248);
+    }
+}
+ion-content
+{
+    h3 
+    {
+        padding-left:20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight:bolder;
+      letter-spacing: 1px;
+    }
+}
+.wrap
+{
+  padding-left:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-bottom:12px;
+}
+.wrap1
+{
+    padding:5px;
+    margin-top:7px;
+    margin-bottom:10px;
+}
+.head
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bolder;
+}
+.part
+{
+  color:rgb(172, 125, 235);
+  font-size:12px;
+  padding-top:2px;
+  margin-right:13px;
+  padding-right:5px;
+  font-weight: bold;
+}
+.wrapper
+{
+    display:flex;
+    flex-direction:5px;
+    justify-content: space-between;
+    padding:0px 20px ;
+    color:grey;
+    font-size:12px;
+    
+}
+.par{
+  padding-right:90px;
+}
+.images
+{
+    padding-top:5px;
+    ion-icon
+    {
+        font-size: xx-large;
+        color:rgb(248, 182, 41);
+        padding-right:6px;
+    }
+}
+.images img
+{
+  width:80px;
+  height:40px;
+  padding-top:8px;
+}
+.task
+{   display:flex;
+    flex-direction:row;
+    
+    justify-content: space-around;
+}
+.time 
+{
+  ion-icon
+  {
+    padding-top:10px;
+    padding-right:5px;
+    color:rgb(172, 125, 235);
+    font-size: small;
+  }
+}
+.para{
+  padding-right:30px;
+  font-size:11px;
+  
+}
+.para1
+{
+  display:flex;
+  flex-direction: row;
+}
+.whole
+{
+    display:flex;
+    flex-direction: row;
+    padding-left:20px;
+    margin-bottom:8px;
+}
+.one
+{
+    display:flex;
+    flex-direction:row;
+    background:rgb(172, 125, 235);
+    padding:3px 8px;
+    margin-right:12px;
+    border-radius: 6px;
+    ion-icon
+    {
+        color:white;
+        font-size: x-large;
+        padding-top:10px;
+        padding-right:7px;
+    }
+}
+.one p
+{  
+    font-size:10px;
+    color:white;
+    line-height:13px;
+    letter-spacing:1px;
+}
+.box
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+  border:2px solid rgb(245, 233, 213);
+  margin-top:8px;
+  border-radius:10px;
+}
+.todo
+{
+  padding-left:20px;
+  padding-right:20px;
+}
+#high
+{
+  background: rgb(245, 233, 213);
+}
+.tasks
+{ padding-left:15px;
+  font-size:12px;
+}
+.check
+{
+  padding-top:8px;
+  padding-right:15px;
+  ion-icon 
+  {
+     color:rgb(248, 182, 41);
+     
+  }
+}
+.comment
+{
+    display:flex;
+    flex-direction:row;
+}
+
+.comment img{
+    width:30px;
+    height:30px;
+   align-items:center;
+}
+.search
+{
+    display:flex;
+    flex-direction:row;
+    padding-left:25px;
+    margin:4px;
+    margin-bottom:15px;
+}
+.text
+{
+    
+    height:45px;
+    border-radius:25px;
+    padding-left:15px;
+    padding-top:2px;
+    margin-right:5px;
+    width:80%;
+   color:grey;
+   background-color:rgb(242, 234, 248);
+   
+}
+.text p{
+    font-size:14px;
+    letter-spacing:2px;
+}
+.in 
+{    border:2px solid rgb(172, 125, 235);
+    height:35px;
+    margin-left:10px;
+    border-radius:25px;
+    width:85%;
+   color:grey;
+   background-color:rgb(242, 234, 248);
+}
+.in p{
+    font-size:10px;
+    padding-left:20px;
+    color:rgb(20, 20, 20);
+    padding-bottom:30px;
+    letter-spacing:1px;
+}
+.search
+{   
+    ion-button
+    {
+        border-radius:50%;
+        background-color:rgb(172, 125, 235);
+    }
+    ion-icon
+    {   
+        color:rgb(242, 234, 248);
+    }
+}
